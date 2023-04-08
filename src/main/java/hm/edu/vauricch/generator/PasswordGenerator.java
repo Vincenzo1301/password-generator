@@ -34,10 +34,10 @@ public class PasswordGenerator {
     /**
      * Generates a secure random password with the specified length and inclusion of special characters.
      *
-     * @param length              the length of the password to generate
-     * @param specialCharsAllowed true if special characters should be included, false otherwise
-     * @return the generated secure random password
-     * @throws IllegalArgumentException if the specified length is less than the required length
+     * @param length The length of the password to generate.
+     * @param specialCharsAllowed true if special characters should be included, false otherwise.
+     * @return The generated secure random password
+     * @throws IllegalArgumentException if the specified length is less than the required length.
      */
     public String generateSecureRandomPassword(int length, boolean specialCharsAllowed) {
         int numCount = 2;
