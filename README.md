@@ -9,6 +9,6 @@ For building and running the application you need:
 - Maven
 
 ## Running the application locally
-Execute the `main` method in the `org.foodfool.Application` class from your IDE with application arguments <password_length> <allow_special_chars>, 
-or execute `mvn clean install` to generate the jar file. After that you can start the jar file (located in target folder)
-with `java -jar PasswordGenerator-1.0-SNAPSHOT-spring-boot.jar <password_length> <allow_special_chars>` to generate your password. Example: `java -jar PasswordGenerator-1.0-SNAPSHOT-spring-boot.jar 12 true`
+There are recommended ways to start the application to generate a password.
+- Execute the `main` method in the `hm.edu.vauricch.Application` class from your IDE with application arguments <password_length> <allow_special_chars>
+- Execute `mvn clean install` to generate the jar file. After that you can execute the application  with `java -jar PasswordGenerator-1.0-SNAPSHOT-spring-boot.jar <password_length> <allow_special_chars>` to generate your password. Example: `java -jar PasswordGenerator-1.0-SNAPSHOT-spring-boot.jar 12 true`
