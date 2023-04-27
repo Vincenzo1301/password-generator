@@ -1,7 +1,7 @@
 # Password generator
 
 ## Purpose of the software
-The Password Generator is a simple Java application that generates secure random passwords with the specified length and inclusion of special characters. The purpose of this software is to provide an easy-to-use tool for generating strong passwords that can be used to protect sensitive data and online accounts.
+The Password Generator is a simple Java application that generates random passwords with the specified length and inclusion of special characters. The purpose of this software is to provide an easy-to-use tool for generating strong passwords that can be used to protect sensitive data and online accounts.
 
 ## Requirements
 For building and running the application you need:
